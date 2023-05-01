@@ -27,6 +27,8 @@ function detremine_winner()
 
 function submit_answer()
 {
+    scorealive = 0;
+    scoredead = 0;
     const q1 = document.getElementById("q1");
     if(q1.checked)
     {
